@@ -26,7 +26,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 After that I went to the site to get my first impressions and in the meantime I left Dirsearch running using the command ```dirsearch -w /usr/share/wordlists/dirb/big.txt -u mustachio.thm```.
 
-![](Scrrenshot_1.png)
+![](Writeups/Mustachio/Scrrenshot_1.png)
 
 When I looked at the terminal that was running Dirsearch it brought me this:
 

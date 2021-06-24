@@ -94,11 +94,11 @@ So we need an id_rsa.pub to get one of the first steps to access the system, wel
 </comment>
 ```
 
-![](Screenshot_8.png)
+![](Screenshot_8.jpg)
 
 Yes! We were able to enumerate the users, so we have 3 users root, joe, barry. We'll save them for future exploration. Well now that I know the users I'm going to try to get the id_rsa.pub starting with the user Barry.
 
-![](Screenshot_9.png)
+![](Screenshot_9.jpg)
 
 Good we got it, I tried it with the user Joe but I wasn't successful. Now copy id_rsa.pub and paste it into your id_rsa.pub on your system. Example: ```echo "<target id_rsa.pub> >> /root/.ssh/id_rsa.pub``` or with Kali user ```echo "<target id_rsa.pub> >> /home/kali/ .ssh/id_rsa.pub```.
 
@@ -115,7 +115,7 @@ Well, since Barry has an id_rsa.pub he probably has an id_rsa too. So let's try 
 </comment>
 ```
 
-![](Screenshot_10.png)
+![](Screenshot_10.jpg)
 
 Yes! We got id_rsa and id_rsa.pub, id_rsa just this half pie more than to fix it, it just has to look like this model:
 

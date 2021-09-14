@@ -1,4 +1,4 @@
-### Mustachio
+# Mustachio
 
 Easy boot2root Machine
 
